@@ -1,0 +1,598 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+ .main{
+    height: 800px;
+    max-width: 1920px;
+    background-color: rgb(70, 70, 221);
+    margin: 0 auto;
+}
+
+header{
+    background-color: transparent;
+}
+
+header nav{
+    height: 100px;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+header nav .name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header nav .name ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 89px;
+    font-size: 20px;
+}
+
+header nav .name ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 89px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+.name ul li a::after{
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+    transform: scaleX(0);
+
+
+
+}
+
+.name ul li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+
+
+
+header nav .name  a{
+  
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+   
+}
+
+
+
+header nav .name .fa-solid  {
+  
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+header nav .name .kk{
+  
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border-radius: 33px;
+    transition: 0.5s;
+}
+
+ .name .kk:hover{
+    background-color: brown;
+}
+
+.clo{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    position: relative;
+}
+
+.clo .col{
+    height: 600px;
+    width: 600px;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+
+.clo .col h2{
+ font-size: 50px;
+ position: absolute;
+ top: 250px;
+ color: aliceblue;
+}
+
+.clo .col p{
+    font-size: 30px;
+    position: absolute;
+    top: 400px;
+    color:aliceblue;
+   }
+
+   
+.clo .col a{
+    font-size: 25px;
+    background-color: white;
+    position: absolute;
+    top: 500px;
+    color:rgb(0, 1, 2);
+    padding: 12px 30px;
+    border-radius: 39px;
+    transition: 0.5s;
+   }
+
+   .clo .col a:hover{
+    background-color: brown;
+   }
+
+.clo .col1{
+    height: 600px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+
+
+.clo .col1 img{
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: o auto;
+    z-index: 999999;
+    
+}
+
+.clo .col1  .col2{
+    height: 300px;
+    width: 500px;
+    border-radius: 50% 50% 0% 0%;
+    background-color: white;
+    position: absolute;
+    top: 127px;
+    left: 50px;
+    transform: scale(100%);
+    transition: 0.5s;
+}
+.clo .col1  .col2:hover{
+    transform: scale(100%);
+    background-color: rgb(145, 44, 44);
+}
+
+/* 
+line breckkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk */
+
+
+main section .poster{
+    height: 600px;
+    max-width: 1920px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+
+main section .poster .poster1{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 23px;
+    
+   
+  
+}
+
+main section .poster .poster1 .div{
+    height: 500px;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    
+    
+}
+
+main section .poster .poster1 .div1{
+    height: 500px;
+    width: 600px;
+    
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+main section .poster .poster1 .div1 h2{
+    font-size: 50px;
+}
+
+main section .poster .poster1 .div1 h3{
+    font-size: 25px;
+}
+
+
+
+
+main section .poster .poster1 .div .card{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(46, 43, 226);
+    border-radius: 30px;
+    margin: 0 auto;
+    transform: 50% 50%;
+    margin: 0 auto;
+   
+}
+
+
+main section .poster .poster1 .div  .card1{
+    height: 150px;
+    width: 100px;
+    background-color: rgb(18, 27, 34);
+    border-radius: 100% 0% 0% 0%;
+    position: absolute;
+    left: 190px;
+    top:880px;
+    
+    
+    
+}
+
+main section .poster .poster1 .div  .card2{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(80, 60, 88);
+    border-radius: 0px 100px 0px 0px;
+    position: absolute;
+    left:300px;
+    top:950px;
+    
+}
+
+main section .poster .poster1 .div  .card3{
+    height: 170px;
+    width: 100px;
+    background-color: rgb(52, 174, 223);
+    border-radius: 0px 0px 100px 0px;
+    position: absolute;
+    left:400px;
+    top:1070px;
+    
+}
+
+main section .poster .poster1 .div  .card4{
+    height: 100px;
+    width: 210px;
+    background-color: rgb(11, 26, 95);
+    border-radius: 0px 0px 0px 100px;
+    position: absolute;
+    left:160px;
+    top:1170px;
+}
+
+main section .poster .poster1 .div  .card5{
+    height: 110px;
+    width: 110px;
+    background-color: rgb(8, 88, 126);
+    border-radius: 100%;
+    position: absolute;
+    left:270px;
+    top:1055px;
+}
+
+
+main section .poster .poster1 .div  .card6{
+    height: 120px;
+    width: 80px;
+    background-color: rgb(8, 126, 18);
+    border-radius: 100px;
+    position: absolute;
+    left:180px;
+    top:1040px;
+}
+
+.card1 img{
+    width: 80px;
+    position: absolute;
+    left: 20px;
+    top: 53px;
+}
+.card2 img{
+    width: 130px;
+    position: absolute;
+    left:30px;
+    top: 5px;
+}
+.card3 img{
+    width: 70px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+.card4 img{
+    width: 50px;
+    position: absolute;
+    left: 70px;
+    top: 1px;
+}
+
+.card5 img{
+    width: 80px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.card6 img{
+    width: 66px;
+    position: absolute;
+    left: 5px;
+    top: 30px;
+}
+/* 
+jhkkhfkhdkghkhfgkergherk.ghdkghekgherk */
+
+section .kk{
+    height: 500px;
+    max-width: 1920px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+section .kk .kk1{
+    height: 450px;
+    width: 1500px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+section .kk .kk1 .kk2{
+    height: 400px;
+    width: 300px;
+
+   
+}
+
+
+section .kk .kk1 .kk2 .kk3{
+    height: 350px;
+    width: 300px;
+    background-image: url(logo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 9px black , -10px -10px 19px black ;
+}
+section .kk .kk1 .kk2 .kk8{
+    height: 350px;
+    width: 300px;
+    background-image: url(logo5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 9px black , -10px -10px 19px black ;
+}
+section .kk .kk1 .kk2 .kk9{
+    height: 350px;
+    width: 300px;
+    background-image: url(logo6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 9px black , -10px -10px 19px black ;
+}
+section .kk .kk1 .kk2 .kk11{
+    height: 350px;
+    width: 300px;
+    background-image: url(logo2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 9px black , -10px -10px 19px black ;
+}
+section .kk .kk1 .kk2 .kk4{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+section .kk .kk1 .kk2 .kk5{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+section .kk .kk1 .kk2 .kk6{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+section .kk .kk1 .kk2 .kk7{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+
+
+/* 
+line breakkkkkk///////////// */
+
+
+
+ footer .class{
+    height: 600px;
+    max-width: 1920px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(lk2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+footer .class .class1{
+    height: 550px;
+    width: 1500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    column-gap: 20px;
+    
+}
+
+
+footer .class .class1 .room{
+    height: 500px;
+    width: 600px;
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+footer .class .class1 .room h2{
+    font-size: 40px;
+   
+}
+
+footer .class .class1 .room span{
+    color: rgb(11, 127, 180);
+}
+
+footer .class .class1 .room h3{
+    color: rgb(153, 62, 9);
+    font-size: 20px;
+}
+
+footer .class .class1 .room p{
+   
+    font-size: 20px;
+   
+}
+  
+
+footer .class .class1 .room1{
+    height: 500px;
+    width: 600px;
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    position: relative;
+  
+   
+}
+
+.room1 .room2{
+    height: 350px;
+    width: 400px;
+    background-color: rgb(7, 57, 150);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border-radius: 33px;
+
+}
+
+
+footer .class .class1 .room1 input{
+    height: 40px;
+    width: 290px;
+    background-color: transparent;
+   
+}
+::placeholder{
+    color: black;
+    font-size: 22px;
+    padding: 0px 12px;
+}
+
+ .room1 a{
+    background-color: rgb(2, 16, 75);
+    padding: 12px 50px;
+    border-radius: 22px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+    
+    left: 110px;
+    top: 370px;
+    transition: 0.5s;
+}
+ .room1 a:hover{
+    background-color:  rgb(128, 8, 28);
+    color: rgb(0, 0, 0);
+}
+
+.room2 h2{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
